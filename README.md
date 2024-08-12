@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Fanatic is free React Template made for [Graphberry](https://www.graphberry.com/).
 
 You can Preview this template on [Graphberry webiste](https://www.graphberry.com/item/fanatic-free-react-landing-page).
@@ -73,3 +74,5 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+=======
+
