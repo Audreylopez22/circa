@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/circa/static/css/main.f6170813.css",
+    "main.js": "/circa/static/js/main.5f5475d5.js",
+    "static/js/488.24487179.chunk.js": "/circa/static/js/488.24487179.chunk.js",
+    "static/media/LOGO CIRCA.png": "/circa/static/media/LOGO CIRCA.444af0ff5f5efb34764a.png",
+    "static/media/LOGO CIRCA TEXTO.png": "/circa/static/media/LOGO CIRCA TEXTO.5a0cfce57dc2f4399c21.png",
+    "static/media/LOGO SOLO.png": "/circa/static/media/LOGO SOLO.73742efca8b46731b586.png",
+    "static/media/logo02.svg": "/circa/static/media/logo02.ef3dc4768d89bf758521d844dc1406e2.svg",
+    "static/media/logo01.svg": "/circa/static/media/logo01.f0f3765fa14836d794809c38f220dbb8.svg",
+    "static/media/logo03.svg": "/circa/static/media/logo03.ed39a486d651c4499e1cc1e7717dfc41.svg",
+    "static/media/logo06.svg": "/circa/static/media/logo06.7fcfefcaa956903796a1150cbef55634.svg",
+    "static/media/logo05.svg": "/circa/static/media/logo05.e583f97db1f0a140ca92e3cf84c88b12.svg",
+    "static/media/logo04.svg": "/circa/static/media/logo04.d4601325c6147b5d07ef7a4513368711.svg",
+    "static/media/slick.svg": "/circa/static/media/slick.2630a3e3eab21c607e21.svg",
+    "static/media/slick.eot": "/circa/static/media/slick.a4e97f5a2a64f0ab1323.eot",
+    "static/media/slick.ttf": "/circa/static/media/slick.c94f7671dcc99dce43e2.ttf",
+    "static/media/slick.woff": "/circa/static/media/slick.295183786cd8a1389865.woff",
+    "index.html": "/circa/index.html",
+    "main.f6170813.css.map": "/circa/static/css/main.f6170813.css.map",
+    "main.5f5475d5.js.map": "/circa/static/js/main.5f5475d5.js.map",
+    "488.24487179.chunk.js.map": "/circa/static/js/488.24487179.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f6170813.css",
+    "static/js/main.5f5475d5.js"
+  ]
+}
