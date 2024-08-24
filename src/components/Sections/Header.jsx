@@ -6,7 +6,6 @@ import {
   useTheme,
   useMediaQuery,
 } from "@mui/material";
-
 import Logo from "../../assets/img/LOGO CIRCA.png";
 import Logotext from "../../assets/img/LOGO CIRCA TEXTO.png";
 import Logoimg from "../../assets/img/LOGO SOLO.png";
@@ -14,6 +13,7 @@ import Logoimg from "../../assets/img/LOGO SOLO.png";
 export default function CoffeeSection() {
   const theme = useTheme();
   const isSmallScreen = useMediaQuery(theme.breakpoints.down("sm"));
+
   return (
     <Box id="home">
       <Box className="container" sx={{ paddingTop: "20px" }}>
@@ -70,6 +70,7 @@ export default function CoffeeSection() {
               Tocamos y transformamos la vida de las personas alrededor de una
               taza de café.
             </Typography>
+
             {/* <Button
               variant="contained"
               sx={{

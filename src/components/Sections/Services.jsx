@@ -33,7 +33,9 @@ export default function Services() {
             </Typography>
           </Box>
           <Box sx={{ display: "flex", flexWrap: "wrap", gap: 2 }}>
+
             <Box sx={CardStyle}>
+
               <ServiceBox
                 icon="roller"
                 title="EXPERIENCIAS "
@@ -69,6 +71,7 @@ export default function Services() {
               <ClientSlider />
             </Box>
           </Box>
+
         </Box>
       </Box>
     </Box>

@@ -8,6 +8,7 @@ import {
 } from "@mui/material";
 import AddImage2 from "../../assets/img/add/add2.png"; 
 
+
 export default function Projects() {
   const theme = useTheme();
   const isSmallScreen = useMediaQuery(theme.breakpoints.down("md"));
@@ -36,6 +37,7 @@ export default function Projects() {
             >
               Aprende y disfruta del café con nuestros especialistas
             </Typography>
+
             <Typography variant="h6" sx={{ mb: 2, mt: 2, color: "black",textAlign: isSmallScreen ? "justify" : "left", }}>
               Somos un grupo de personas apasionadas y entusiastas del complejo
               pero increíble mundo del café de especialidad, que a través de los

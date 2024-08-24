@@ -86,7 +86,20 @@ export default function Contact() {
             >
               <FacebookIcon style={iconstyle} />
             </MuiLink>
-            
+            <MuiLink
+              href="https://www.twitter.com"
+              target="_blank"
+              sx={iconcolor}
+            >
+              <TwitterIcon style={iconstyle} />
+            </MuiLink>
+            <MuiLink
+              href="https://www.linkedin.com"
+              target="_blank"
+              sx={iconcolor}
+            >
+              <LinkedInIcon style={iconstyle} />
+            </MuiLink>
           </Box>
         </Box>
 

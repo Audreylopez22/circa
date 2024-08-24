@@ -9,6 +9,7 @@ import {
   useTheme,
   useMediaQuery,
 } from "@mui/material";
+
 import Sidebar from "../Nav/Sidebar";
 import Backdrop from "../Elements/Backdrop";
 import LogoIcon from "../../assets/svg/Logo";
@@ -19,6 +20,7 @@ export default function TopNavbar() {
   const [sidebarOpen, toggleSidebar] = useState(false);
   const theme = useTheme();
   const isMobile = useMediaQuery(theme.breakpoints.down("md"));
+
 
   useEffect(() => {
     const handleScroll = () => setY(window.scrollY);
@@ -118,3 +120,4 @@ const BottomBar = styled(Box)(({ theme }) => ({
   bottom: 0,
   left: 0,
 }));
+
