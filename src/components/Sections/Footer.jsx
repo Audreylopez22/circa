@@ -17,7 +17,13 @@ export default function Contact() {
   const isSmallScreen = useMediaQuery(theme.breakpoints.down("sm"));
 
   const iconstyle = { fontSize: 50 };
-  const iconcolor= {color: '#972d07'}
+  const iconcolor = {
+    color: '#972d07',
+    textDecoration: 'none', // Evita el subrayado
+    "&:hover": {
+      color: "#61300d", // Mantén el color original al pasar el cursor
+    }
+  };
 
   return (
     <Box sx={{ width: "100%", backgroundColor: "white", py: 3 }}>
@@ -80,20 +86,7 @@ export default function Contact() {
             >
               <FacebookIcon style={iconstyle} />
             </MuiLink>
-            <MuiLink
-              href="https://www.twitter.com"
-              target="_blank"
-              sx={iconcolor}
-            >
-              <TwitterIcon style={iconstyle} />
-            </MuiLink>
-            <MuiLink
-              href="https://www.linkedin.com"
-              target="_blank"
-              sx={iconcolor}
-            >
-              <LinkedInIcon style={iconstyle} />
-            </MuiLink>
+            
           </Box>
         </Box>
 
