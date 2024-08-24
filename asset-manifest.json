@@ -1,25 +1,25 @@
 {
   "files": {
-    "main.css": "/circa/static/css/main.de1e8bbc.css",
-    "main.js": "/circa/static/js/main.603ee025.js",
-    "static/js/488.24487179.chunk.js": "/circa/static/js/488.24487179.chunk.js",
-    "static/media/laCortezas.png": "/circa/static/media/laCortezas.e92353f0a7d401e887fb.png",
-    "static/media/LOGO CIRCA.png": "/circa/static/media/LOGO CIRCA.444af0ff5f5efb34764a.png",
-    "static/media/LOGO CIRCA TEXTO.png": "/circa/static/media/LOGO CIRCA TEXTO.5a0cfce57dc2f4399c21.png",
-    "static/media/okafe_logo.png": "/circa/static/media/okafe_logo.ac4127cfff7f2cc89e34.png",
-    "static/media/LOGO SOLO.png": "/circa/static/media/LOGO SOLO.73742efca8b46731b586.png",
-    "static/media/laMarianela.png": "/circa/static/media/laMarianela.5e2f05d40629a49b89f0.png",
-    "static/media/slick.svg": "/circa/static/media/slick.2630a3e3eab21c607e21.svg",
-    "static/media/slick.eot": "/circa/static/media/slick.a4e97f5a2a64f0ab1323.eot",
-    "static/media/slick.ttf": "/circa/static/media/slick.c94f7671dcc99dce43e2.ttf",
-    "static/media/slick.woff": "/circa/static/media/slick.295183786cd8a1389865.woff",
-    "index.html": "/circa/index.html",
-    "main.de1e8bbc.css.map": "/circa/static/css/main.de1e8bbc.css.map",
-    "main.603ee025.js.map": "/circa/static/js/main.603ee025.js.map",
-    "488.24487179.chunk.js.map": "/circa/static/js/488.24487179.chunk.js.map"
+    "main.css": "/static/css/main.0dedcad8.css",
+    "main.js": "/static/js/main.6586842d.js",
+    "static/js/488.24487179.chunk.js": "/static/js/488.24487179.chunk.js",
+    "static/media/laCortezas.png": "/static/media/laCortezas.e92353f0a7d401e887fb.png",
+    "static/media/LOGO CIRCA.png": "/static/media/LOGO CIRCA.444af0ff5f5efb34764a.png",
+    "static/media/LOGO CIRCA TEXTO.png": "/static/media/LOGO CIRCA TEXTO.5a0cfce57dc2f4399c21.png",
+    "static/media/okafe_logo.png": "/static/media/okafe_logo.ac4127cfff7f2cc89e34.png",
+    "static/media/LOGO SOLO.png": "/static/media/LOGO SOLO.73742efca8b46731b586.png",
+    "static/media/laMarianela.png": "/static/media/laMarianela.5e2f05d40629a49b89f0.png",
+    "static/media/slick.svg": "/static/media/slick.2630a3e3eab21c607e21.svg",
+    "static/media/slick.eot": "/static/media/slick.a4e97f5a2a64f0ab1323.eot",
+    "static/media/slick.ttf": "/static/media/slick.c94f7671dcc99dce43e2.ttf",
+    "static/media/slick.woff": "/static/media/slick.295183786cd8a1389865.woff",
+    "index.html": "/index.html",
+    "main.0dedcad8.css.map": "/static/css/main.0dedcad8.css.map",
+    "main.6586842d.js.map": "/static/js/main.6586842d.js.map",
+    "488.24487179.chunk.js.map": "/static/js/488.24487179.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.de1e8bbc.css",
-    "static/js/main.603ee025.js"
+    "static/css/main.0dedcad8.css",
+    "static/js/main.6586842d.js"
   ]
 }
