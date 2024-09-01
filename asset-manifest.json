@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.0dedcad8.css",
-    "main.js": "/static/js/main.6586842d.js",
+    "main.js": "/static/js/main.4425c202.js",
     "static/js/488.24487179.chunk.js": "/static/js/488.24487179.chunk.js",
     "static/media/laCortezas.png": "/static/media/laCortezas.e92353f0a7d401e887fb.png",
     "static/media/LOGO CIRCA.png": "/static/media/LOGO CIRCA.444af0ff5f5efb34764a.png",
@@ -15,11 +15,11 @@
     "static/media/slick.woff": "/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/index.html",
     "main.0dedcad8.css.map": "/static/css/main.0dedcad8.css.map",
-    "main.6586842d.js.map": "/static/js/main.6586842d.js.map",
+    "main.4425c202.js.map": "/static/js/main.4425c202.js.map",
     "488.24487179.chunk.js.map": "/static/js/488.24487179.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.0dedcad8.css",
-    "static/js/main.6586842d.js"
+    "static/js/main.4425c202.js"
   ]
 }
