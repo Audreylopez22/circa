@@ -36,8 +36,12 @@ const IconWrapper = styled(Box)(({theme}) => ({
   display: 'flex',
   justifyContent: 'center',
   marginBottom: theme.spacing(2),
-  '@media (max-width: 860px)': {
-    margin: '0 auto',
+  '& img': {
+    maxWidth: '100px', // Tamaño máximo para las imágenes
+    height: 'auto', // Mantener la proporción de la imagen
+    '@media (max-width: 600px)': {
+      maxWidth: '80px', // Tamaño menor para pantallas pequeñas
+    },
   },
 }))
 

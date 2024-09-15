@@ -1,11 +1,14 @@
 import React from 'react'
 import {createTheme, ThemeProvider} from '@mui/material/styles'
-import { Analytics } from "@vercel/analytics/react"
+import {Analytics} from '@vercel/analytics/react'
 import {Helmet, HelmetProvider} from 'react-helmet-async' // Actualiza la importación
 import Landing from './screens/Landing.jsx'
 
 const theme = createTheme({
   palette: {
+    primary: {
+      main: '#61300d',
+    },
     grey: {
       200: '#eeeeee',
       900: '#212121',
@@ -37,7 +40,7 @@ export default function App() {
           <link href='https://fonts.googleapis.com/css2?family=Khula:wght@400;600;800&display=swap' rel='stylesheet' />
         </Helmet>
         <Landing />
-        <Analytics/>
+        <Analytics />
       </HelmetProvider>
     </ThemeProvider>
   )
