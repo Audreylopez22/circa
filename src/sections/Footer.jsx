@@ -1,16 +1,20 @@
 import React from 'react'
-import {Link as MuiLink} from '@mui/material'
+import Link from '@mui/material/Link'
 import Box from '@mui/material/Box'
 import Typography from '@mui/material/Typography'
 import {useTheme} from '@mui/material/styles'
 import useMediaQuery from '@mui/material/useMediaQuery'
 import InstagramIcon from '@mui/icons-material/Instagram'
 import FacebookIcon from '@mui/icons-material/Facebook'
-import LogoImg from '../../assets/img/LOGO CIRCA.png'
+const LogoImg = 'assets/img/LOGO CIRCA.png'
 
 export default function Contact() {
   const theme = useTheme()
   const isSmallScreen = useMediaQuery(theme.breakpoints.down('sm'))
+  const slogan = 'Conectar y transformar la vida de las personas al rededor de una tasa de café.'
+  const direction = 'Calle 47AN # 5C Norte - 35, La Flora'
+  const city = 'Cali, Colombia'
+  const phonenumber = '+57 317 4073736'
 
   const iconstyle = {fontSize: 50}
   const iconcolor = {
@@ -43,7 +47,7 @@ export default function Contact() {
           }}>
           {!isSmallScreen && (
             <Typography variant='h4' sx={{color: 'black', fontWeight: 'bold'}}>
-              Conectar y transformar la vida de las personas al rededor de una tasa de café.
+              {slogan}
             </Typography>
           )}
           {isSmallScreen && (
@@ -59,17 +63,17 @@ export default function Contact() {
                 }}
               />
               <Typography variant='h5' sx={{color: 'black', fontWeight: 'bold', mb: 2}}>
-                Conectar y transformar la vida de las personas al rededor de una tasa de café.
+                {slogan}
               </Typography>
             </>
           )}
           <Box sx={{display: 'flex', gap: 2, mt: isSmallScreen ? 2 : 8}}>
-            <MuiLink href='https://www.instagram.com' target='_blank' sx={iconcolor}>
+            <Link href='https://www.instagram.com/circacoffee.co/' target='_blank' sx={iconcolor}>
               <InstagramIcon style={iconstyle} />
-            </MuiLink>
-            <MuiLink href='https://www.facebook.com' target='_blank' sx={iconcolor}>
+            </Link>
+            <Link href='https://www.facebook.com' target='_blank' sx={iconcolor}>
               <FacebookIcon style={iconstyle} />
-            </MuiLink>
+            </Link>
           </Box>
         </Box>
 
@@ -102,11 +106,11 @@ export default function Contact() {
               mr: isSmallScreen ? 0 : 5,
               textAlign: isSmallScreen ? 'center' : 'right',
             }}>
-            Calle 47AN # 5C Norte - 35, La Flora
+            {direction}
             <br />
-            Cali, Colombia
+            {city}
             <br />
-            +57 3161801274
+            {phonenumber}
           </Typography>
         </Box>
       </Box>
